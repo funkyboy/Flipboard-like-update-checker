@@ -13,8 +13,10 @@ A Flipboard-like update checker.
 
 4. Your class should also implement the `SMUpdaterDelegate`, which has three delegate methods
 
-	`-(void) newVersionExists:(NSString *)versionNumber`
-	`-(void) thereIsNoNewVersion <br/>`
-	`-(void) requestFailedwithError:(NSError *) error`
+	`-(void) newVersionExists:(NSString *)versionNumber`<br/>
+	`-(void) thereIsNoNewVersion`<br/>
+	`-(void) requestFailedwithError:(NSError *) error`<br/>
 
-Names should be pretty explanatory :)
+Names should be pretty self-explanatory :)
+
+Check out the code in the application delegate to see an example.

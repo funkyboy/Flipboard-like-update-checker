@@ -8,7 +8,7 @@ A Flipboard-like update checker.
 2. Set the value of APP_NAME
 3. Whenever you like to check for a new version just use this code.
    
-	`SMUpdateNotifier *n = [[SMUpdateNotifier alloc] initWithDelegate:self];`
+	`SMUpdateNotifier *n = [[SMUpdateNotifier alloc] initWithDelegate:self];`<br/>
 	`[n checkIfNewVersionExists];`
 
 4. Your class should also implement the `SMUpdaterDelegate`, which has three delegate methods

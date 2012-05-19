@@ -1,0 +1,296 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BD1F61201567B8D8003FF3FD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD1F611F1567B8D8003FF3FD /* UIKit.framework */; };
+		BD1F61221567B8D8003FF3FD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD1F61211567B8D8003FF3FD /* Foundation.framework */; };
+		BD1F61241567B8D8003FF3FD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD1F61231567B8D8003FF3FD /* CoreGraphics.framework */; };
+		BD1F612A1567B8D8003FF3FD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BD1F61281567B8D8003FF3FD /* InfoPlist.strings */; };
+		BD1F612C1567B8D8003FF3FD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BD1F612B1567B8D8003FF3FD /* main.m */; };
+		BD1F61301567B8D8003FF3FD /* SMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BD1F612F1567B8D8003FF3FD /* SMAppDelegate.m */; };
+		BD1F61331567B8D8003FF3FD /* SMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD1F61321567B8D8003FF3FD /* SMViewController.m */; };
+		BD1F61361567B8D8003FF3FD /* SMViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BD1F61341567B8D8003FF3FD /* SMViewController.xib */; };
+		BD1F613E1567B9EE003FF3FD /* SMUpdateNotifier.m in Sources */ = {isa = PBXBuildFile; fileRef = BD1F613D1567B9EE003FF3FD /* SMUpdateNotifier.m */; };
+		BD1F61461567C1A1003FF3FD /* SMURLConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = BD1F61441567BFEC003FF3FD /* SMURLConnection.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BD1F611B1567B8D8003FF3FD /* Updater.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Updater.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD1F611F1567B8D8003FF3FD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		BD1F61211567B8D8003FF3FD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BD1F61231567B8D8003FF3FD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		BD1F61271567B8D8003FF3FD /* Updater-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Updater-Info.plist"; sourceTree = "<group>"; };
+		BD1F61291567B8D8003FF3FD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BD1F612B1567B8D8003FF3FD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BD1F612D1567B8D8003FF3FD /* Updater-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Updater-Prefix.pch"; sourceTree = "<group>"; };
+		BD1F612E1567B8D8003FF3FD /* SMAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SMAppDelegate.h; sourceTree = "<group>"; };
+		BD1F612F1567B8D8003FF3FD /* SMAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SMAppDelegate.m; sourceTree = "<group>"; };
+		BD1F61311567B8D8003FF3FD /* SMViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SMViewController.h; sourceTree = "<group>"; };
+		BD1F61321567B8D8003FF3FD /* SMViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SMViewController.m; sourceTree = "<group>"; };
+		BD1F61351567B8D8003FF3FD /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SMViewController.xib; sourceTree = "<group>"; };
+		BD1F613C1567B9EE003FF3FD /* SMUpdateNotifier.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMUpdateNotifier.h; sourceTree = "<group>"; };
+		BD1F613D1567B9EE003FF3FD /* SMUpdateNotifier.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMUpdateNotifier.m; sourceTree = "<group>"; };
+		BD1F613F1567BB96003FF3FD /* SMUpdaterDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SMUpdaterDelegate.h; sourceTree = "<group>"; };
+		BD1F61431567BFEC003FF3FD /* SMURLConnection.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SMURLConnection.h; sourceTree = "<group>"; };
+		BD1F61441567BFEC003FF3FD /* SMURLConnection.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SMURLConnection.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BD1F61181567B8D8003FF3FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD1F61201567B8D8003FF3FD /* UIKit.framework in Frameworks */,
+				BD1F61221567B8D8003FF3FD /* Foundation.framework in Frameworks */,
+				BD1F61241567B8D8003FF3FD /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BD1F61101567B8D7003FF3FD = {
+			isa = PBXGroup;
+			children = (
+				BD1F61251567B8D8003FF3FD /* Updater */,
+				BD1F611E1567B8D8003FF3FD /* Frameworks */,
+				BD1F611C1567B8D8003FF3FD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BD1F611C1567B8D8003FF3FD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BD1F611B1567B8D8003FF3FD /* Updater.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BD1F611E1567B8D8003FF3FD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BD1F611F1567B8D8003FF3FD /* UIKit.framework */,
+				BD1F61211567B8D8003FF3FD /* Foundation.framework */,
+				BD1F61231567B8D8003FF3FD /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BD1F61251567B8D8003FF3FD /* Updater */ = {
+			isa = PBXGroup;
+			children = (
+				BD1F61431567BFEC003FF3FD /* SMURLConnection.h */,
+				BD1F61441567BFEC003FF3FD /* SMURLConnection.m */,
+				BD1F612E1567B8D8003FF3FD /* SMAppDelegate.h */,
+				BD1F612F1567B8D8003FF3FD /* SMAppDelegate.m */,
+				BD1F61311567B8D8003FF3FD /* SMViewController.h */,
+				BD1F61321567B8D8003FF3FD /* SMViewController.m */,
+				BD1F61341567B8D8003FF3FD /* SMViewController.xib */,
+				BD1F61261567B8D8003FF3FD /* Supporting Files */,
+				BD1F613C1567B9EE003FF3FD /* SMUpdateNotifier.h */,
+				BD1F613D1567B9EE003FF3FD /* SMUpdateNotifier.m */,
+				BD1F613F1567BB96003FF3FD /* SMUpdaterDelegate.h */,
+			);
+			path = Updater;
+			sourceTree = "<group>";
+		};
+		BD1F61261567B8D8003FF3FD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BD1F61271567B8D8003FF3FD /* Updater-Info.plist */,
+				BD1F61281567B8D8003FF3FD /* InfoPlist.strings */,
+				BD1F612B1567B8D8003FF3FD /* main.m */,
+				BD1F612D1567B8D8003FF3FD /* Updater-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BD1F611A1567B8D8003FF3FD /* Updater */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD1F61391567B8D8003FF3FD /* Build configuration list for PBXNativeTarget "Updater" */;
+			buildPhases = (
+				BD1F61171567B8D8003FF3FD /* Sources */,
+				BD1F61181567B8D8003FF3FD /* Frameworks */,
+				BD1F61191567B8D8003FF3FD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Updater;
+			productName = Updater;
+			productReference = BD1F611B1567B8D8003FF3FD /* Updater.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BD1F61121567B8D7003FF3FD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = SM;
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = BD1F61151567B8D7003FF3FD /* Build configuration list for PBXProject "Updater" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = BD1F61101567B8D7003FF3FD;
+			productRefGroup = BD1F611C1567B8D8003FF3FD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BD1F611A1567B8D8003FF3FD /* Updater */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BD1F61191567B8D8003FF3FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD1F612A1567B8D8003FF3FD /* InfoPlist.strings in Resources */,
+				BD1F61361567B8D8003FF3FD /* SMViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BD1F61171567B8D8003FF3FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD1F61461567C1A1003FF3FD /* SMURLConnection.m in Sources */,
+				BD1F612C1567B8D8003FF3FD /* main.m in Sources */,
+				BD1F61301567B8D8003FF3FD /* SMAppDelegate.m in Sources */,
+				BD1F61331567B8D8003FF3FD /* SMViewController.m in Sources */,
+				BD1F613E1567B9EE003FF3FD /* SMUpdateNotifier.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BD1F61281567B8D8003FF3FD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BD1F61291567B8D8003FF3FD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		BD1F61341567B8D8003FF3FD /* SMViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BD1F61351567B8D8003FF3FD /* en */,
+			);
+			name = SMViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BD1F61371567B8D8003FF3FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BD1F61381567B8D8003FF3FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BD1F613A1567B8D8003FF3FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Updater/Updater-Prefix.pch";
+				INFOPLIST_FILE = "Updater/Updater-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		BD1F613B1567B8D8003FF3FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Updater/Updater-Prefix.pch";
+				INFOPLIST_FILE = "Updater/Updater-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BD1F61151567B8D7003FF3FD /* Build configuration list for PBXProject "Updater" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD1F61371567B8D8003FF3FD /* Debug */,
+				BD1F61381567B8D8003FF3FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD1F61391567B8D8003FF3FD /* Build configuration list for PBXNativeTarget "Updater" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD1F613A1567B8D8003FF3FD /* Debug */,
+				BD1F613B1567B8D8003FF3FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BD1F61121567B8D7003FF3FD /* Project object */;
+}

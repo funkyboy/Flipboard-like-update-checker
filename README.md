@@ -1,4 +1,4 @@
-Flipboard-like-update-checker
+Flipboard-like update checker
 =============================
 
 A Flipboard-like update checker.
@@ -8,13 +8,13 @@ A Flipboard-like update checker.
 2. Set the value of APP_NAME
 3. Whenever you like to check for a new version just use this code.
    
-	SMUpdateNotifier *n = [[SMUpdateNotifier alloc] initWithDelegate:self];
-	[n checkIfNewVersionExists];   
+	`SMUpdateNotifier *n = [[SMUpdateNotifier alloc] initWithDelegate:self];`
+	`[n checkIfNewVersionExists];`
 
-4. Your class should also implement the SMUpdaterDelegate, which has three delegate methods
+4. Your class should also implement the `SMUpdaterDelegate`, which has three delegate methods
 
-	-(void) newVersionExists:(NSString *)versionNumber<br/>
-	-(void) thereIsNoNewVersion <br/>
-	-(void) requestFailedwithError:(NSError *) error<br/>
+	`-(void) newVersionExists:(NSString *)versionNumber`
+	`-(void) thereIsNoNewVersion <br/>`
+	`-(void) requestFailedwithError:(NSError *) error`
 
 Names should be pretty explanatory :)

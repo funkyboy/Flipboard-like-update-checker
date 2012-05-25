@@ -14,13 +14,13 @@
 
 @synthesize versionURL;
 @synthesize connection;
-@synthesize delegate;
+@synthesize delegate = _delegate;
 
 - (id) initWithDelegate:(id) del {
 
     if (self = [super init]) {
     
-        self.delegate = del;
+        _delegate = del;
         
     }
     

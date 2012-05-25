@@ -16,7 +16,7 @@
 @interface SMUpdateNotifier : NSObject
 
 @property (nonatomic, strong) NSURL *versionURL;
-@property (weak) id <SMUpdaterDelegate> delegate;
+@property (weak, readonly) id <SMUpdaterDelegate> delegate;
 @property (nonatomic, strong) SMURLConnection *connection;
 
 - (id) initWithDelegate:(id) del;
